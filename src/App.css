@@ -1,0 +1,27 @@
+/* form label,
+input {
+  padding: 1rem;
+  margin: 1rem;
+  display: block;
+} */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 60%;
+}
+form input {
+  height: 2rem;
+}
+form button {
+  width: 20%;
+  background-color: blue;
+  color: white;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
